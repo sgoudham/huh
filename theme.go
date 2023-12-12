@@ -296,7 +296,7 @@ func ThemeCatppuccin() *Theme {
 
 	f := &t.Focused
 	f.Base.BorderForeground(subtext1)
-	f.Title.Foreground(mauve)
+	f.Title.Foreground(mauve).Bold(true)
 	f.Description.Foreground(subtext0)
 	f.ErrorIndicator.Foreground(red)
 	f.ErrorMessage.Foreground(red)
